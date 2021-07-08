@@ -1,15 +1,30 @@
-import './App.css';
-import Row from './Row';
-import requests from './requests';
+import './App.css'
+import Row from './Row'
+import requests from './requests'
+import Banner from './Banner'
 
 function App() {
   return (
-    <div className="App"><h1>Hello</h1>
-      <Row title="Netflix Originals" fetchUrl={requests.fetchTrending} />
+    <div className="app">
+      {/* Nav */}
+      <Banner />
+      <Row
+        title="NETFLIX ORIGINAL"
+        fetchUrl={requests.fetchTrending}
+        isLargeRow={true}
+      />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
-
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
+      <Row title="ActionMovies" fetchUrl={requests.fetchActionMovies} />
+      <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
+      <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
+      <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
+      <Row
+        title="Documentaries "
+        fetchUrl={requests.fetchDocumentariesMovies}
+      />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
