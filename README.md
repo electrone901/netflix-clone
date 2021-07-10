@@ -18,6 +18,9 @@ Netflix&Chill is a clone of Netflix with the main functionalty. You can watch th
 - Main Page
   ![Home](https://raw.githubusercontent.com/electrone901/netflix-clone/main/src/images/home.png 'Home')
 
+- Search Result Page
 ![Searching and playing a movie](https://raw.githubusercontent.com/electrone901/netflix-clone/main/src/images/movie-trailer.png 'Home')
 
+
+- Movie playing Page
 ![Movie playing ](https://raw.githubusercontent.com/electrone901/netflix-clone/main/src/images/trailer.png 'Home')
