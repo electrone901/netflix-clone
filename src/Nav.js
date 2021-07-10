@@ -46,20 +46,3 @@ function Nav({ setSearchTerm }) {
 }
 
 export default Nav
-
-{
-  /* <div className="main">
-<div className={`nav ${show && 'nav__black'}`}>
-  <img className="nav__logo" src={logo} alt="Logo" />
-  <form className="nav__search" onSubmit={handleClick}>
-    <input
-      type="text"
-      placeholder="search"
-      value={inputText}
-      onChange={(e) => setInputText(e.target.value)}
-    />
-  </form>
-  <img className="nav__avatar" src={avatar} alt="Avatar" />
-</div>
-</div> */
-}
