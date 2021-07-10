@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 Netflix&Chill is a clone of Netflix with the main functionalty. You can watch the trailer by clicking on the movie's banner. Do check this out!
 
+[Web App ](https://netflix-clone-73aec.web.app/)
 ## Technologies Used
 - JavaScript
 - React JS
