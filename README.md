@@ -1,9 +1,16 @@
 # Getting Started with Create React App
-This is  netflix clone
+Netflix&Chill is a clone of Netflix with the main functionalty. You can watch the trailer by clicking on the movie's banner. Do check this out!
 
-## Available Scripts
-### `npm start`
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
+- JavaScript
+- React JS
+- Firebase
+- CSS
+- Font Awesome
+- API
+
+## Preview
+- Main Page
+![Home](https://raw.githubusercontent.com/electrone901/movies-app/main/img/home.png "Home")
 
 

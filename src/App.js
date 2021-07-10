@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react'
 import './App.css'
 import Row from './Row'
 import requests from './requests'
@@ -5,12 +6,19 @@ import Banner from './Banner'
 import Nav from './Nav'
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('')
   return (
     <div className="app">
-      <Nav />
+      <Nav setSearchTerm={setSearchTerm} />
       <Banner />
+      {searchTerm ? (
+        <Row title="Your Search" fetchUrl={requests.search + searchTerm} />
+      ) : (
+        ''
+      )}
+
       <Row
-        title="NETFLIX ORIGINAL"
+        title="Netflix Originals"
         fetchUrl={requests.fetchTrending}
         isLargeRow={true}
       />
