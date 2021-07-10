@@ -45,3 +45,15 @@
 .nav__black {
     background-color: #111;
 }
+
+
+/* FOR MOBILE DEVICES */
+
+@media only screen and (max-width: 480px) {
+    .nav__right {
+        margin-right: 1px;
+    }
+    .nav__right__search input {
+        margin-right: 1px;
+    }
+}
