@@ -16,7 +16,7 @@
 
 .nav__right {
     display: flex;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .nav__right__search input {
